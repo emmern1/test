@@ -5,7 +5,7 @@
 	margin-right: auto;
 	font-size: 7vw;
 	position: relative;
-	height: 500px;
+	width: 30%;
 }
 
 
@@ -28,14 +28,14 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	.seksjon {
 		width: 100%;
-		padding: 3px;
+		/*padding: 3px;*/
 	}
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1000px) and (min-width: 800px) {
 	.seksjon {
 		width: 80%;
 	}
@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 1024px) {
 	.seksjon {
-		width: 70%;
+		width: 30%;
 	}
 }
 
